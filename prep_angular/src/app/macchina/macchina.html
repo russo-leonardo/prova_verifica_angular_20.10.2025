@@ -1,1 +1,17 @@
-<p>macchina works!</p>
+<div class="dino-card-container">
+  
+  <div class="dino1">
+    
+    <div class="dino2">{{ Macchina }}</div> 
+    
+    <p class="dino3">Componenti principali:</p>
+  </div>
+
+  <div class="dino-list-wrapper">
+    <div *ngFor="let pezzo of pezziMacchina" 
+        class="dino4">
+      {{ pezzo }}
+    </div>
+  </div>
+  
+</div>

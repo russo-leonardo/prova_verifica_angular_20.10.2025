@@ -7,5 +7,16 @@ import { Component } from '@angular/core';
   styleUrl: './container.css'
 })
 export class Container {
-
+ macchineDaCantiere: string[] = [
+    'Escavatore',
+    'Bulldozer',
+    'Gru',
+    'Betoniera',
+    'Rullo compressore',
+    'Pala meccanica',
+    'Autogru',
+    'Miniescavatore',
+    'Livellatrice',
+    'Fresa stradale'
+  ];
 }

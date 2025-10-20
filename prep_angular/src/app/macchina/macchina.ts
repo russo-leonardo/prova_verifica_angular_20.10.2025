@@ -7,6 +7,12 @@ import { Component, Input } from '@angular/core';
   styleUrl: './macchina.css'
 })
 export class Macchina {
-    @Input() macchina!: string;
+@Input() name!: string; // <-- Aggiungi la notazione @input
+
+  constructor() {
+     // Rimuovi l'impostazione del nome
+  }
+
+  ngOnInit() {}
 
 }

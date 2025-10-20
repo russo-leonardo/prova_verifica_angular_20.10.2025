@@ -1,0 +1,1 @@
+# prova_verifica_angular_20.10.2025
